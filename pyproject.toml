@@ -1,0 +1,12 @@
+[project]
+name = "deep-water"
+version = "0.1.0"
+description = "基于 OpenAI 兼容 API 和 Requests 的「知码开门」每日自动刷题签到脚本"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "dotenv>=0.9.9",
+    "openai>=3.57.0",
+    "requests>=2.34.2",
+]
