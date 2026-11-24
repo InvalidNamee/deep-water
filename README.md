@@ -24,6 +24,8 @@ cp -n .env.example .env
 
 系统环境变量优先于 `.env`。不要分享 `.env`。
 
+Windows 上如果看到 `ZoneInfoNotFoundError: 'No time zone found with key Asia/Shanghai'`，在项目目录运行 `uv sync`，再用 `uv run main.py` 启动。若直接用 Conda 的 Python 运行，请在同一环境里执行 `python -m pip install tzdata`。
+
 ## 运行模式
 
 请先确认站方允许自动化和 AI 提交，仅用于非比赛练习。
